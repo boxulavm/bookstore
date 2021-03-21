@@ -70,3 +70,14 @@ a.badge:hover {
     background: #000;
     display: none;
 }
+
+/* Bogdan 21.03.2021. */ 
+img {
+    transition: 0.1s ease;
+} 
+
+.card-body:hover .img-fluid { 
+    transform: scale(0.95);
+    transition: 0.2s ease-in; 
+}
+/*  */
